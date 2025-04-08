@@ -1,0 +1,8 @@
+name: dl_lab3
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow>=2.0
+  - numpy
+  - matplotlib

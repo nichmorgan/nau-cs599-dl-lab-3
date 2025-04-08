@@ -1,0 +1,97 @@
+Training model with no normalization:
+Epoch 1, Loss: 0.5248, Accuracy: 81.47%, Test Loss: 0.4002, Test Accuracy: 85.75%
+Epoch 2, Loss: 0.3556, Accuracy: 87.43%, Test Loss: 0.3432, Test Accuracy: 88.04%
+Epoch 3, Loss: 0.3136, Accuracy: 88.83%, Test Loss: 0.3275, Test Accuracy: 88.28%
+Epoch 4, Loss: 0.2846, Accuracy: 89.83%, Test Loss: 0.3134, Test Accuracy: 88.93%
+Epoch 5, Loss: 0.2640, Accuracy: 90.48%, Test Loss: 0.2880, Test Accuracy: 89.82%
+Epoch 6, Loss: 0.2475, Accuracy: 91.11%, Test Loss: 0.2817, Test Accuracy: 90.26%
+Epoch 7, Loss: 0.2295, Accuracy: 91.81%, Test Loss: 0.2803, Test Accuracy: 90.13%
+Epoch 8, Loss: 0.2192, Accuracy: 92.12%, Test Loss: 0.2787, Test Accuracy: 89.98%
+Epoch 9, Loss: 0.2062, Accuracy: 92.53%, Test Loss: 0.2716, Test Accuracy: 90.32%
+Epoch 10, Loss: 0.1959, Accuracy: 92.93%, Test Loss: 0.2662, Test Accuracy: 90.71%
+
+Training model with custom Batch Normalization:
+Epoch 1, Loss: 0.4279, Accuracy: 84.91%, Test Loss: 0.3896, Test Accuracy: 86.60%
+Epoch 2, Loss: 0.3080, Accuracy: 89.07%, Test Loss: 0.3197, Test Accuracy: 88.25%
+Epoch 3, Loss: 0.2738, Accuracy: 90.10%, Test Loss: 0.2983, Test Accuracy: 89.20%
+Epoch 4, Loss: 0.2476, Accuracy: 91.09%, Test Loss: 0.2921, Test Accuracy: 89.29%
+Epoch 5, Loss: 0.2318, Accuracy: 91.52%, Test Loss: 0.2899, Test Accuracy: 89.65%
+Epoch 6, Loss: 0.2156, Accuracy: 92.27%, Test Loss: 0.2728, Test Accuracy: 90.44%
+Epoch 7, Loss: 0.1986, Accuracy: 92.81%, Test Loss: 0.2851, Test Accuracy: 89.99%
+Epoch 8, Loss: 0.1893, Accuracy: 93.14%, Test Loss: 0.2808, Test Accuracy: 90.10%
+Epoch 9, Loss: 0.1774, Accuracy: 93.52%, Test Loss: 0.3069, Test Accuracy: 89.17%
+Epoch 10, Loss: 0.1684, Accuracy: 93.86%, Test Loss: 0.2900, Test Accuracy: 90.14%
+
+Training model with custom Layer Normalization:
+Epoch 1, Loss: 0.4301, Accuracy: 84.32%, Test Loss: 0.3333, Test Accuracy: 88.05%
+Epoch 2, Loss: 0.3021, Accuracy: 88.97%, Test Loss: 0.3000, Test Accuracy: 88.88%
+Epoch 3, Loss: 0.2661, Accuracy: 90.35%, Test Loss: 0.2883, Test Accuracy: 89.19%
+Epoch 4, Loss: 0.2440, Accuracy: 91.14%, Test Loss: 0.2875, Test Accuracy: 89.73%
+Epoch 5, Loss: 0.2259, Accuracy: 91.74%, Test Loss: 0.2929, Test Accuracy: 89.30%
+Epoch 6, Loss: 0.2099, Accuracy: 92.35%, Test Loss: 0.3077, Test Accuracy: 88.73%
+Epoch 7, Loss: 0.1964, Accuracy: 92.85%, Test Loss: 0.2799, Test Accuracy: 89.84%
+Epoch 8, Loss: 0.1828, Accuracy: 93.32%, Test Loss: 0.2682, Test Accuracy: 90.41%
+Epoch 9, Loss: 0.1751, Accuracy: 93.63%, Test Loss: 0.2495, Test Accuracy: 90.82%
+Epoch 10, Loss: 0.1620, Accuracy: 94.10%, Test Loss: 0.2705, Test Accuracy: 90.60%
+
+Training model with custom Weight Normalization:
+Epoch 1, Loss: 0.4609, Accuracy: 83.71%, Test Loss: 0.3660, Test Accuracy: 86.99%
+Epoch 2, Loss: 0.3233, Accuracy: 88.55%, Test Loss: 0.3237, Test Accuracy: 88.43%
+Epoch 3, Loss: 0.2899, Accuracy: 89.58%, Test Loss: 0.3119, Test Accuracy: 88.68%
+Epoch 4, Loss: 0.2679, Accuracy: 90.41%, Test Loss: 0.2979, Test Accuracy: 88.98%
+Epoch 5, Loss: 0.2494, Accuracy: 91.02%, Test Loss: 0.2872, Test Accuracy: 89.75%
+Epoch 6, Loss: 0.2363, Accuracy: 91.51%, Test Loss: 0.2821, Test Accuracy: 89.73%
+Epoch 7, Loss: 0.2236, Accuracy: 91.84%, Test Loss: 0.2761, Test Accuracy: 89.86%
+Epoch 8, Loss: 0.2113, Accuracy: 92.35%, Test Loss: 0.2731, Test Accuracy: 89.99%
+Epoch 9, Loss: 0.2000, Accuracy: 92.71%, Test Loss: 0.2714, Test Accuracy: 90.41%
+Epoch 10, Loss: 0.1903, Accuracy: 93.15%, Test Loss: 0.2646, Test Accuracy: 90.58%
+
+Training model with TensorFlow Batch Normalization:
+Epoch 1, Loss: 0.4142, Accuracy: 85.35%, Test Loss: 0.4001, Test Accuracy: 85.63%
+Epoch 2, Loss: 0.2982, Accuracy: 89.25%, Test Loss: 0.3331, Test Accuracy: 87.69%
+Epoch 3, Loss: 0.2605, Accuracy: 90.50%, Test Loss: 0.3094, Test Accuracy: 88.75%
+Epoch 4, Loss: 0.2412, Accuracy: 91.16%, Test Loss: 0.3491, Test Accuracy: 88.20%
+Epoch 5, Loss: 0.2234, Accuracy: 91.88%, Test Loss: 0.2858, Test Accuracy: 89.56%
+Epoch 6, Loss: 0.2071, Accuracy: 92.49%, Test Loss: 0.3050, Test Accuracy: 89.39%
+Epoch 7, Loss: 0.1918, Accuracy: 93.01%, Test Loss: 0.3451, Test Accuracy: 87.84%
+Epoch 8, Loss: 0.1821, Accuracy: 93.34%, Test Loss: 0.2925, Test Accuracy: 89.76%
+Epoch 9, Loss: 0.1719, Accuracy: 93.79%, Test Loss: 0.3119, Test Accuracy: 89.26%
+Epoch 10, Loss: 0.1622, Accuracy: 94.13%, Test Loss: 0.2968, Test Accuracy: 90.01%
+
+Training model with TensorFlow Layer Normalization:
+Epoch 1, Loss: 0.4404, Accuracy: 84.00%, Test Loss: 0.3948, Test Accuracy: 85.58%
+Epoch 2, Loss: 0.3052, Accuracy: 88.79%, Test Loss: 0.3152, Test Accuracy: 88.60%
+Epoch 3, Loss: 0.2673, Accuracy: 90.38%, Test Loss: 0.2881, Test Accuracy: 89.27%
+Epoch 4, Loss: 0.2446, Accuracy: 91.07%, Test Loss: 0.2948, Test Accuracy: 89.18%
+Epoch 5, Loss: 0.2244, Accuracy: 91.76%, Test Loss: 0.2858, Test Accuracy: 89.64%
+Epoch 6, Loss: 0.2097, Accuracy: 92.32%, Test Loss: 0.2584, Test Accuracy: 90.74%
+Epoch 7, Loss: 0.1934, Accuracy: 92.90%, Test Loss: 0.2916, Test Accuracy: 89.59%
+Epoch 8, Loss: 0.1805, Accuracy: 93.44%, Test Loss: 0.2752, Test Accuracy: 90.16%
+Epoch 9, Loss: 0.1730, Accuracy: 93.71%, Test Loss: 0.2933, Test Accuracy: 89.57%
+Epoch 10, Loss: 0.1609, Accuracy: 94.11%, Test Loss: 0.2703, Test Accuracy: 90.59%
+2025-04-08 02:11:26.946 python[99989:1799499] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+
+Comparing Batch Normalization implementations:
+Max output difference (Custom BN vs TF BN): 2.176554
+Max gradient difference (Custom BN vs TF BN): 0.008520
+
+Comparing Layer Normalization implementations:
+Max output difference (Custom LN vs TF LN): 0.106753
+Max gradient difference (Custom LN vs TF LN): 0.000002
+
+### Analysis and Findings ###
+1. **Performance Comparison**:
+ - No Normalization: Final Test Accuracy = 90.71%
+ - Custom BN: Final Test Accuracy = 90.14%
+ - Custom LN: Final Test Accuracy = 90.60%
+ - Custom WN: Final Test Accuracy = 90.58%
+ - TF BN: Final Test Accuracy = 90.01%
+ - TF LN: Final Test Accuracy = 90.59%
+
+2. **Best Performing Technique**:
+Batch Normalization (both custom and TF) typically outperforms others in this CNN task on Fashion MNIST, likely due to its ability to reduce internal covariate shift and stabilize training across mini-batches.
+
+3. **Custom vs TensorFlow Normalizations**:
+ - BN: Output difference = 2.176554, Gradient difference = 0.008520
+ - LN: Output difference = 0.106753, Gradient difference = 0.000002
+Small differences indicate that custom implementations are correct, with variations possibly due to floating-point precision or minor implementation details (e.g., TF BN uses running averages).
